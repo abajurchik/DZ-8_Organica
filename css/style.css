@@ -92,7 +92,6 @@
 /*---------------СТИЛИ КОНТЕНТА-----------*/
 
 .main{
-    position: relative;
     width: 960px;
     margin: 0 auto;
     margin-top: 108px;
@@ -102,10 +101,9 @@
 .main_sidebar{
     width: 310px;
     height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
     border-right: 1px solid #eaeaea;
+    float: left;
+    padding-bottom: 135px;
 }
 .main_sidebar p{
     padding-right: 35px;
@@ -118,10 +116,7 @@
 
 .main_content{
     width: 590px;
-    padding-left: 10px;
-    padding-bottom: 90px;
-    float: left;
-    margin-left: 360px;
+    float: right;
     height: 100%;
 }
 .main_content h1{
